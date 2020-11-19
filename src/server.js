@@ -25,20 +25,3 @@ const run = async () => {
 }
 
 module.exports = run;
-
-
-// mongoose.connect(process.env.CONNECTIONSTRING, { 
-//   useNewUrlParser: true, 
-//   useUnifiedTopology: true, 
-//   useFindAndModify: false })
-//   .then(() => {
-//     app.emit('connected');
-//   })
-//   .catch(err => console.log(err));
-
-// app.on('connected', () => {
-//   app.listen(port, () => {
-//     console.log(`AdminBro is running on http://localhost:${port}/admin`);
-//   })
-// });
-
